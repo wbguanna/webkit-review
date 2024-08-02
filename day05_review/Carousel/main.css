@@ -28,6 +28,7 @@
   .slides::-webkit-scrollbar-track {
     background: transparent;
   }
+
   .slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -47,7 +48,8 @@
     align-items: center;
     font-size: 100px;
   }
-  
+
+
   .author-info {
     background: rgba(0, 0, 0, 0.75);
     color: white;
@@ -89,4 +91,5 @@
   .slider > a:focus {
     background: #000;
   }
+
   
